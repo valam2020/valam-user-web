@@ -1,0 +1,206 @@
+/* src/Header.css */
+.headerheader {
+  
+    color: black;
+    /* padding: 15px; */
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .headerlogo {
+    width: 30%;
+  }
+  
+  .headermenu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none; /* Initially hide the menu icon */
+  }
+  
+  .headermenu {
+    display: flex;
+    flex-direction: row; /* Display menu items in a row by default */
+  }
+  
+  .headermenu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .headermenu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+  }
+  
+  .headermenu a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.0em;
+  }
+
+  .headermenu-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 45%; /* Adjust the width of the modal */
+    height: 100%;
+    /* background: rgba(248, 247, 247, 0.5); */
+     background: orange;  
+     /* background-color: #ffcd04; */
+    /* justify-content: center;
+    align-items: center; */
+    z-index: 1;
+  }
+  
+  .headermenu-modal.open {
+    display: flex;
+  }
+
+  .headerclose-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.0em;
+    cursor: pointer;
+    font-weight:500;
+   }
+
+  .headermenu ul li:hover {
+    font-weight: bold; 
+    color: #000; 
+    text-decoration: none; 
+   
+    border-bottom: 3px solid #ffcd04; 
+    
+  }
+
+  
+.profile-image {
+    width: 15%; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it circular for a profile image effect */
+   margin-left: 70%;
+  }
+  
+  /* Add styles for the profile dropdown */
+  .profile-icon {
+    position: relative;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 8%;
+    right: 1%;
+    border-top: none;
+    list-style: none;
+    width: 20%;
+  }
+  
+  .profile-dropdown li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: orange; 
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .profile-dropdown li:last-child {
+    border-bottom: 1px solid black;
+   
+  }
+  .profile-dropdown {
+    list-style: none;
+  
+  }
+  
+  .profile-dropdown a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .headerlogo {
+        width: 45%;
+        padding-left: 2%;
+      }
+      .profiledisplayimage{
+        width: 40%; 
+        height:90%;
+    border-radius: 50%; 
+    margin-left: 0%;
+    margin-right: 3%;
+   
+      }
+      .username{
+       margin-top: 12px;
+      }
+      
+      
+      .profiledisplay{
+        display: flex;
+        height: 60px;
+       
+       
+      }
+   
+    .headermenu {
+        display: none; /* Hide the menu items for smaller screens */
+        flex-direction: column; /* Display menu items in a column for smaller screens */
+        position: absolute;
+        top: 70px; 
+        left: 0;
+        background-color: #131313;
+        width: 60%;
+        padding: 10px;
+      }
+      .profile-icon{
+        display: none;
+      }
+     
+    
+      .headermenu.open {
+        display: flex; 
+
+      }
+    
+      .headermenu-icon {
+        display: block; 
+      }
+      .headermenu-modal.open {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+       
+       
+      }
+      .headermenu-list {
+        list-style: none;
+        padding: 0;
+     
+      
+      }
+
+      .headermenu-list-item a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.0em;
+        font-weight:500
+        
+      }
+      .headermenu-list-item {
+        margin-bottom: 20px; /* Adjust the spacing between menu items */
+        margin-top: 20px;
+      }
+      /* .headerheader{
+        background-color: orange;
+      } */
+    
+  }
+  

@@ -1,0 +1,111 @@
+/* Styles for the top section */
+
+.dashboard1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+    
+  }
+.top-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: #0b0a0a;
+    /* background-color: #ffcd04; */
+  }
+  
+  .logo1 {
+    width: 30%;
+  }
+  
+  
+  .menuUL1 {
+    list-style: none;
+    display: flex;
+   
+    
+  }
+  
+  .menuList1 {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  
+  .profile-image1 {
+    width: 15%; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it circular for a profile image effect */
+   margin-left: 70%;
+  }
+  
+  /* Add styles for the profile dropdown */
+  .profile-icon1 {
+    position: relative;
+  }
+  
+  .profile-dropdown1 {
+    position: absolute;
+    top: 8%;
+    right: 1%;
+    border-top: none;
+    list-style: none;
+    width: 20%;
+  }
+  
+  .profile-dropdown1 li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: orange; 
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .profile-dropdown1 li:last-child {
+    border-bottom: 1px solid black;
+   
+  }
+  .profile-dropdown1 {
+    list-style: none;
+  
+  }
+  
+  .profile-dropdown1 a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .menu1 ul li:hover {
+    font-weight: bold; 
+    color: #000; 
+    text-decoration: none; 
+   
+    border-bottom: 3px solid #ffcd04; 
+    
+  }
+  .menu1 ul li {
+    cursor: pointer;
+    
+    transition: all 0.3s;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    position: relative; 
+  }
+  
+  .menu1 ul {
+    list-style: none;
+    
+   
+  }
+  
+  .menu1 ul li a {
+    text-decoration: none;
+    color: black; 
+  }
+  

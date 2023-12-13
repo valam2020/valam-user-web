@@ -1,0 +1,85 @@
+.otp-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10%;
+    background: #fff; /* Set the background color */
+
+  /* Add a box shadow for the shadow effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .otpHead {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .otpPara {
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .otp-input {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .InputOTPBox {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .otpButton {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(135deg, #ff5c33, rgb(235, 187, 44));
+    color: white;
+    border-radius: 5px;
+  }
+  .resend {
+    font-size: 15px;
+    font-weight: bold;
+    color: #706f6f;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+    
+  }
+  
+  .resend:hover {
+    color: #0088cc; 
+    cursor: pointer;
+  }
+  
+  .resend:active {
+    color:  #0088cc;; /* Change the color on click/active state */
+  }
+  
+  .wrong-number{
+    font-size: 200;
+    color: #f00b0b;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+  }
+  .wrong-number:hover {
+    color: rgb(75, 204, 0); 
+    cursor: pointer;
+  }
+  
+  .wrong-number:active {
+    color:  #4bcc00;; /* Change the color on click/active state */
+  }

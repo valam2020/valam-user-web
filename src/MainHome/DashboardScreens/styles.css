@@ -1,0 +1,55 @@
+.suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #cc1010;
+  }
+  
+  .suggestions-row {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+   
+  }
+  
+  .suggestion-item-row {
+    padding: 8px;
+    cursor: pointer;
+    width: 50%; /* Adjust as needed */
+    box-sizing: border-box;
+    border-bottom: 1px solid #cc1010;
+  }
+  /* App.css (or your preferred CSS file) */
+
+.input-container {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .inputboxpick {
+    width: calc(100% - 30px); /* Adjust the width as needed */
+    padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+    outline: none;
+  }
+  
+  .clear-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    cursor: pointer;
+    color: #888;
+  }
+  

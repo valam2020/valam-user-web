@@ -1,0 +1,104 @@
+.signUpScreen {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftContainerSignupImg {
+  width: 100%;
+  max-width: 60%; /* Set a maximum width to maintain a reasonable size on larger screens */
+  background-color: #fcd303;
+  min-height: 100vh;
+}
+
+.rightContainer {
+  width: 100%;
+  max-width: 40%; 
+}
+
+.foot1 {
+  width: 100%;
+  padding-top: 5%;
+  box-sizing: border-box; 
+  display: flex;
+}
+
+.leftimg {
+  transform: scale(1.6);
+  margin-top: 45%;
+  width: 60%;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mobile1 {
+  width: 110%;
+  box-sizing: border-box; 
+  margin-bottom: 15px;
+}
+
+
+.form {
+  padding: 5%;
+}
+
+.check {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.SubmitButton,
+.LoginButton {
+  width: 25%;
+  box-sizing: border-box;
+  margin-right: 5%;
+  border-radius: 10%;
+}
+
+.SubmitButton,
+.SubmitButton.clicked:hover {
+  background-color: #ffaa00;
+}
+
+.SubmitButton.clicked {
+  transform: scale(0.95);
+}
+
+.LoginButton {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.LoginButton:hover {
+  background-color: #555;
+}
+ /* Media Queries for Mobile */
+ @media (max-width: 768px) {
+  .leftContainerSignupImg{
+    display: none;
+  }
+  .rightContainer {
+    max-width: 100%;
+  }
+  .mobile1 {
+    width: 109.5%;
+    box-sizing: border-box; 
+    margin-bottom: 15px;
+  }
+ 
+  .form{
+     padding: 5%; 
+  }
+  
+ }

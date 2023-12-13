@@ -1,0 +1,166 @@
+/* Base styles for all screens */
+.loginScreen {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  /* margin-top: 5%; */
+}
+
+.head {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.InputMobHead {
+  padding-bottom: 3%;
+  color: rgb(31, 30, 30);
+  
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal; 
+}
+
+
+
+.MobileBtn,
+.social-login button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 15px;
+}
+
+.MobileBtn {
+  background: linear-gradient(135deg, #ff5c33, rgb(235, 187, 44));
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.divider .line {
+  flex-grow: 1;
+  border-top: 1px solid #ccc;
+}
+
+.divider .text {
+  color: #ccc;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.lighttext {
+  color: rgb(156, 152, 152);
+}
+
+.social-login button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.social-login button:first-child {
+  background-color: #4285f4;
+}
+
+.social-login button svg {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+  .loginScreen {
+    flex-direction: row;
+  }
+
+  .leftContainerLoginImg {
+    width: 60%;
+    min-height: 100vh;
+ 
+  }
+
+  .leftLoginimg{
+    width: 80%;
+  }
+
+  .login-container {
+    width: 40%;
+   
+    
+  }
+
+  .leftLoginimg {
+    margin-left: 8%;
+    transform: scale(1.2); /* Adjust the scale as needed */
+    margin-top: 10% ;/* Adjust the top margin as needed */
+    display: block; /* Show the left image on larger screens */
+  }
+
+  .textStyle {
+    color: red;
+    font-weight: bold;
+    
+  }
+  
+   .errorContainer {
+    width: '80%';
+    align-items: flex-end;
+    margin-left: 180px; 
+   
+   }
+ 
+}
+
+@media (max-width: 768px) {
+  .leftContainerLoginImg {
+    display: none;
+  
+  }
+  .login-container{
+    width: 80%;
+
+  }
+  .head{
+    font-size: 1.5em;
+  }
+  .lighttext{
+    font-size: small;
+  }
+}

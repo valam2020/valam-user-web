@@ -1,0 +1,11 @@
+
+.mapcontain {
+    width: 100%;  /* Update width for smaller screens */
+  }
+  @media (max-width: 768px) {
+   .mapcontain {
+    width: 100%;  /* Update width for smaller screens */
+  }
+  }
+
+  

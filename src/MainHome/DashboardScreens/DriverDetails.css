@@ -1,0 +1,265 @@
+ .detail-section{
+  width: 25%;
+  height: 70%;
+  float: right;
+  margin-left: 3%;
+ 
+}
+
+.avatar{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+padding-right: 10px;
+}
+.heading{
+  font-weight: 700,
+   
+} 
+.sub-heading{
+  font-weight: 500;
+}
+.detail-section{
+  align-items: center;
+  background-color: #fff; /* Set background color for the container */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 2%;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.trip-container {
+  margin-top: 10%;
+ background-color:#DADADA;
+ align-items: center;
+ justify-content: center;
+ justify-content: center;
+ height: 20px;
+
+ padding: 3px;
+  border-top-left-radius: 15px; 
+  border-bottom-left-radius: 15px; 
+  border-top-right-radius: 15px; 
+  border-bottom-right-radius: 15px;
+  margin-bottom: 5%;
+  
+
+  
+ 
+}
+.trip-heading{
+  font-weight: bold;
+  font-size:small;
+  color: #05375a;
+  margin: 0;
+
+  
+}
+.driverInfo{
+  flex-direction: row;
+}
+.car-info{
+  flex-direction: row;
+}
+.trip-sub-container{
+  border-bottom-width: 1;
+  border-bottom-color: #DADADA;
+  
+
+}
+
+.to-section,
+.from-section {
+  flex: 1; /* Equal width for "To" and "From" sections */
+
+
+}
+ 
+ .trip-sub-container{
+  border-bottom: 2px solid rgb(204, 196, 196); 
+position: relative;
+padding-bottom: 3%;
+ }
+
+.toheading,
+.heading {
+  font-weight: bold;
+  font-size: small;
+  color: #05375a;
+}
+.to-section,
+.from-section {
+  flex: 1;
+  padding: 2px; /* Adjust padding as needed */
+}
+
+
+.sub-headingto-text,
+.to-text,
+.sub-heading {
+  font-size: small;
+  color: #000; /* Adjust text color as needed */
+}
+
+
+.topsec{
+  display: flex;
+}
+.sub-heading2{
+  margin-top: 0;
+  font-size: small;
+  color: #000; /* Adjust text color as needed */
+}
+.top-container{
+  margin-top: 2%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  margin-top: 15px; 
+}
+
+.call-button,
+.text-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 8%;
+ padding-left: 10%; 
+ 
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  margin-right: 2%;
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #0056b3; /* Hover color */
+  }
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 5px; 
+ 
+
+
+}
+
+.text{
+  font-weight: bold;
+ 
+  /* font-size: 10px; 
+  margin-top: 13px; */
+  
+}
+.text1{
+  padding: 10px;
+  font-weight: bold;
+}
+
+.custom-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 20px; */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center;
+  width: 25%;
+ 
+}
+.ridestartimg{
+  width: 100%;
+  
+}
+.rideendimg{
+  width: 80%;
+  
+}
+
+.custom-dialog p {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.custom-dialog button {
+  padding: 10px 20px;
+  background-color: #ffa600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.custom-dialog button:hover {
+  background-color: rgb(241, 72, 5);
+} 
+.driverpagesection{
+  display: flex;
+}
+.up-arrow {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .detail-section {
+    width: 90%;
+    height: 50%;
+    margin-right: 0; /* Remove right margin on smaller screens */
+    overflow-y: auto; /* Enable vertical scroll */
+    
+  }
+
+  .driverpagesection{
+    flex-direction: column;
+  }
+
+  .custom-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* padding: 20px; */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+    width: 50%;
+   
+  }
+  .ridestartpara{
+    font-size: small;
+  }
+  .up-arrow {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .detail-section{
+    margin-top: 0%;
+    margin-top: 2%;
+  }
+}
+
+
+
+

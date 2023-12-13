@@ -1,0 +1,441 @@
+/* Styles for the dashboard container */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Styles for the top section */
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: #0b0a0a;
+  }
+  
+  .logo {
+    width: 30%;
+  }
+  
+  
+  .menuUL {
+    list-style: none;
+    display: flex;
+   
+    
+  }
+  
+  .menuList {
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  
+  .profile-image {
+    width: 15%; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it circular for a profile image effect */
+   margin-left: 70%;
+  }
+  
+  /* Add styles for the profile dropdown */
+  .profile-icon {
+    position: relative;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 8%;
+    right: 1%;
+    border-top: none;
+    list-style: none;
+    width: 20%;
+  }
+  
+  .profile-dropdown li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: orange; 
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .profile-dropdown li:last-child {
+    border-bottom: 1px solid black;
+   
+  }
+  .profile-dropdown {
+    list-style: none;
+  
+  }
+  
+  .profile-dropdown a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  .menu ul li:hover {
+    font-weight: bold; 
+    color: #000; 
+    text-decoration: none; 
+   
+    border-bottom: 3px solid #ffcd04; 
+    
+  }
+  .menu ul li {
+    cursor: pointer;
+    
+    transition: all 0.3s;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    position: relative; 
+  }
+  
+  .menu ul {
+    list-style: none;
+    
+   
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  
+  /* Styles for the home menu */
+  .home-menu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .map-container {
+    flex: 2;
+    /* background-color: #f2f2f2; */
+    display: flex;
+     /* align-items: center; */
+    justify-content: center; 
+    
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    
+  }
+  
+  /* Styles for the form elements */
+  .input-box {
+    margin: 10px 0;
+  }
+  
+  .Label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .fromLabelBX,
+  .fromLabelBx,
+  .paymentSelect {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .continuebtn {
+    background-color: hsl(41, 100%, 50%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .input-container {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; /* Adjust the position of the icon */
+    width: 25px; /* Adjust the icon width */
+    height: 20px; 
+  }
+  
+  .text-input {
+    padding-left: 30px; /* Adjust the left padding to accommodate the icon */
+    width: 100%; /* To make the input field fill the container */
+  }
+  
+  .fromLabelBX::placeholder, .fromLabelBx::placeholder {
+   
+    font-size: 14px;
+    color: #888; 
+  }
+  .clear{
+    cursor: pointer;
+    margin-left: -27px;
+     background-color: white; 
+     width: 25px;
+     height: 20px;
+     /* transform: translateY(-50%);
+     filter: brightness(70%); */
+  }
+  .carSelect1 , .carSelect2, .carSelect3{
+    display:flex;
+    cursor: pointer;
+  }
+  .economyactive{
+    display:flex;
+    cursor: pointer;
+    background-color: #f7f7f5;
+  }
+  .compactactive{
+    display:flex;
+    cursor: pointer;
+    background-color: #f7f7f5;
+  }
+  .suvactive{
+    display:flex;
+    cursor: pointer;
+    background-color: #f7f7f5;
+  }
+  .FaCarSide{
+    font-size: 3em;
+  }
+  .payment button {
+    font-size: 14px; 
+    border: none;
+    /* padding: 10px 20px;  */
+    
+   
+  }
+  .paymentbtn1 {
+    background-color: rgb(5, 247, 5);
+    color: #fff;
+    border-radius: 10%;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+   
+  }
+  .cashactive{
+    border: 1px solid black;
+    background-color: rgb(173, 241, 173);
+    color: #fff;
+    border-radius: 10%;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .paymentbtn2{
+    background-color: rgb(238, 39, 85);
+    color: #fff;
+    border-radius: 10%;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+   
+  }
+  
+  .cardactive{
+    background-color: rgb(238, 123, 150);
+    color: #fff;
+    border-radius: 10%;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .payment button:active,
+  .payment button.selected {
+    background: linear-gradient(to right, #FFDF00, #FFA800);
+    
+  }
+  
+  
+  .CntBtn{
+    /* background-color: rgb(228, 139, 29); */
+    background: linear-gradient(to bottom, #FFA800, #FFDF00);
+    color: #fff;
+    border-radius: 10%;
+    width: 130px;
+    height: 40px;
+    
+    
+    
+  }
+  
+  /* Add space between buttons */
+  .payment button + button {
+    margin-left: 10px; 
+  }
+    
+  .distancebox {
+    display: flex;
+    margin-top: -10px;
+   
+    }
+  .distance{
+    margin-right: 10%;
+    font-weight: 500;
+    color: #646363;
+    
+  }
+  .duration{
+    margin-left: 10%;
+    font-weight: 500;
+    color: #646363;
+  }
+  
+  
+  
+  .distance-data {
+    color: rgb(17, 17, 243); /* Change to your preferred color */
+  }
+  
+  .duration-data {
+    color: rgb(15, 244, 15) /* Change to your preferred color */
+  }
+  
+  .suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #050505;
+  }
+  
+  .suggestions-row {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+   
+  }
+  
+  .suggestion-item-row {
+    padding: 8px;
+    cursor: pointer;
+    width: 50%; /* Adjust as needed */
+    box-sizing: border-box;
+    border-bottom: 1px solid #0b0b0b;
+    
+  }
+  /* App.css (or your preferred CSS file) */
+
+.input-container {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .inputboxpick {
+    width: calc(100% - 30px); /* Adjust the width as needed */
+    padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+    outline: none;
+  }
+  
+  .clear-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .top-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .menu li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .home-menu {
+      width: 100%;
+      height: 100%;
+    }
+    .home-menu {
+      flex-direction: column;
+    }
+  
+    .map-container {
+      flex: 1;
+      height: 100vh; /* Adjust the height as needed */
+    }
+  
+   
+
+    .form-container {
+      flex: 1;
+      width: 100%;
+      max-height: 70vh; /* Set a maximum height for the form container */
+      overflow-y: auto; /* Enable vertical scrolling if the content exceeds the height */
+      padding: 0%;
+      padding-left: 1%;
+     
+    }
+    .distancebox {
+      display: flex;
+      margin-top: -10px;
+     
+      }
+    .distance{
+      margin-right: 4%;
+      font-weight: 500;
+      color: #646363;
+      
+    }
+    .duration{
+      margin-left: 4%;
+      font-weight: 500;
+      color: #646363;
+    }
+    
+   
+    }
+
+
+
+  
+  
+ 
+    
+  
+  
+  
+  

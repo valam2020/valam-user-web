@@ -1,0 +1,252 @@
+.home-container{
+  width: 100%;
+  height: 100%;
+}
+.home-header {
+   
+    color: #333;
+     
+   
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .circular-logo {
+    width: 10%;
+    height: 10%;
+     /* Change to 50% to create a circular logo */
+    overflow: hidden;
+    padding-left: 3%;
+  }
+  
+  .circular-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* .top-menu {
+  padding-right: 5%;
+  } */
+  
+  .top-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+  }
+  
+  .top-menu ul li {
+    cursor: pointer;
+    
+    transition: all 0.3s;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    position: relative; 
+  }
+  
+  .top-menu ul li:hover {
+    font-weight: bold; /* Change to bold when hovering */
+    color: #000; /* Change to black text color when hovering */
+    text-decoration: none; /* Remove the default underline */
+   
+    border-bottom: 3px solid #ffcd04; /* Set the underline style and color */
+    
+  }
+  
+  
+  
+  .top-menu ul li::before {
+    content: ''; /* Add a pseudo-element for the underline */
+    position: absolute;
+    left: 0; /* Adjust the position as needed */
+    right: 0; /* Adjust the position as needed */
+   
+  
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  .mobileImg{
+    display: none;
+  }
+
+  .cta {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .cta-button , .cta-button1 {
+    background-color: #ffcd04;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  .cta-button1 {
+    background-color: rgb(4, 202, 4);
+  }
+
+  
+  .cta-button:hover {
+    background-color: #ffaa00;
+    transition: background-color 0.3s;}
+  
+  
+  
+  
+  .main-content{
+    display: flex; 
+    height:50%;
+    align-items: center; 
+  
+  }
+  .left-content {
+    width:50%;
+    margin-left: 3%;
+    
+     
+  }
+  .cta{
+    padding-top: 5%;
+   margin-top: 0%;
+   
+  }
+  
+  .top-menu ul li a {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  /* Add styles for hover effect (optional) */
+  .top-menu ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: black; /* Set text color to yellow on hover */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .right-content {
+    flex: 1; /* Distribute 50% of the available width to the right content */
+    text-align: center; /* Center the content horizontally within right-content */
+    max-width: 50%; /* Set the maximum width to 50% of the screen width */
+    height: auto;
+  }
+  .right-content img {
+    width: 100%; /* Ensure the image takes up 100% of the right-content width */
+    height: 100%; /* Ensure the image takes up 100% of the right-content height */
+    object-fit: cover; /* Zoom and crop the image to fill the container */
+  }
+  
+  
+  /* Media Queries for Mobile */
+  @media (max-width: 768px) {
+    .para{
+      font-size: small;
+    }
+    
+    .home-header{
+      /* padding: 10%; */
+      background-color: #ffcd04;
+      
+    }
+    .circular-logo{
+      width: 30%; 
+      height:25%;
+    }
+  
+    .mobile-menu li {
+      
+      color: black; /* Text color */
+     background-color:  #ffcd04;
+     list-style: none;
+     border: 1px solid white;
+     text-align: center;
+     
+    }
+  
+    .mobile-menu li a{
+      text-decoration: none;
+     
+    }
+    .mobile-menu{
+      margin-top: -5%;
+      margin-left: -15%;
+  
+    }
+    .discoverheading{
+      width: 160%;
+      height: 20%;
+      font-size: medium;
+    }
+    
+    .para{
+  width: 180%;
+  height: 40%;
+    }
+   
+   .right-content{
+    display: none;
+   }
+    
+  
+    .top-menu {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      padding-right: 5%;
+  
+    }
+  
+    .menuicon {
+      width: 20px; 
+      height: 20px;
+    }
+    .mobileImg{display: block;}
+  .mobileImg img{
+    width: 100%;
+    height: 70%;
+    padding-top: 5%;
+  }
+ 
+ 
+
+   .cta-button1 {
+    width: 100%;
+    border-radius: 25px;
+   font-weight: bold;
+   /* padding: 10px 20px; */
+   
+   
+  }
+  .cta-button {
+    padding: 0%;
+    padding: 10px 20px;
+   
+  }
+  .cta{
+    width: 200%;
+  }
+  
+
+  }
+  /* @media (min-width: 380px) {
+    .circular-logo{
+      width: 30%; 
+      height:25%;
+    }
+  }
+   */
+  

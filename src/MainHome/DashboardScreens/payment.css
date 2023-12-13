@@ -1,0 +1,54 @@
+/* Default styles for larger screens */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .payment-container {
+    background-color: #fff;
+    width: 20%;
+    height: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-container h2 {
+    font-size: 20px;
+  }
+  
+  .payment-container p {
+    font-size: 16px;
+  }
+  
+  .payment-container button {
+    padding: 10px;
+    font-size: 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      justify-content: center;
+      margin-top: -15%;
+    }
+  
+    .payment-container {
+      width: 80%; /* Adjust the width for smaller screens */
+    }
+  }
+  

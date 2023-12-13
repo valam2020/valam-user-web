@@ -1,0 +1,166 @@
+.header {
+    /* background-color: #333; */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none; /* Initially hide the menu icon */
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row; /* Display menu items in a row by default */
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .menu-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%; /* Adjust the width of the modal */
+    height: 100%;
+    /* background: rgba(248, 247, 247, 0.5); */
+    background: orange;
+    /* justify-content: center;
+    align-items: center; */
+    z-index: 1;
+  }
+  
+  .menu-modal.open {
+    display: flex;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    
+ 
+  }
+
+   
+  .profile-image1 {
+    width: 15%; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes it circular for a profile image effect */
+   margin-left: 70%;
+  }
+  
+  /* Add styles for the profile dropdown */
+  .profile-icon1 {
+    position: relative;
+  }
+  
+  .profile-dropdown1 {
+    position: absolute;
+    top: 8%;
+    right: 1%;
+    border-top: none;
+    list-style: none;
+    width: 20%;
+  }
+  
+  .profile-dropdown1 li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: orange; 
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .profile-dropdown1 li:last-child {
+    border-bottom: 1px solid black;
+   
+  }
+  .profile-dropdown1 {
+    list-style: none;
+  
+  }
+  
+  .profile-dropdown1 a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+   
+    .menu {
+        display: none; /* Hide the menu items for smaller screens */
+        flex-direction: column; /* Display menu items in a column for smaller screens */
+        position: absolute;
+        top: 70px; 
+        left: 0;
+      
+        background-color: #131313;
+        width: 40%;
+        padding: 10px;
+      }
+    
+      .menu.open {
+        display: flex; 
+
+      }
+    
+      .menu-icon {
+        display: block; 
+      }
+      .menu-modal.open {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+       
+       
+      }
+      .menu-list {
+        list-style: none;
+        padding: 0;
+      
+      }
+
+      .menu-list-item a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.0em;
+        
+      }
+      .menu-list-item {
+        margin-bottom: 20px; /* Adjust the spacing between menu items */
+        margin-top: 20px;
+      }
+      .profile-icon1{
+        display: none;
+      }
+    
+  }
+  

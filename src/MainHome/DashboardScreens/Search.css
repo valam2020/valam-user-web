@@ -1,0 +1,126 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .waves-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .wave {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+   
+    background-color: #03a9f4; /* Change wave color as needed */
+    animation: waveAnimation 1.5s ease-in-out infinite;
+  }
+  
+  .wave:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  .wave:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+
+  .wave:nth-child(4) {
+    animation-delay: 0.9s;
+  }
+  
+  @keyframes waveAnimation {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
+  
+  .car-icon {
+    position: relative;
+    font-size: 48px;
+    color: yellow; /* Change car color to yellow */
+    animation: moveCar 2s linear infinite alternate;
+    left:-80px
+   
+  }
+  
+  @keyframes moveCar {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100px); /* Adjust distance if needed */
+    }
+  }
+  /* Add these styles to your existing styles or create a new CSS file */
+
+/* Add these styles to your existing styles or create a new CSS file */
+
+.no-driver-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  z-index: 1000; /* ensure the overlay is on top of other elements */
+}
+
+.no-driver-modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.no-driver-modal .text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.no-driver-modal button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.no-driver-modal button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+  @media (max-width: 768px) {
+    .text {
+      font-size: 15px !important;;
+      font-weight:600;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+  }
+
+  
