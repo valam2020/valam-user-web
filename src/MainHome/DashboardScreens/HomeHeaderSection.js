@@ -44,7 +44,7 @@ const HomeHeaderSection = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="menu-list-item">
-            <Link to="/yourTrips">YourTrips</Link>
+            <Link to="/YourTrips">YourTrips</Link>
           </li>
           <li className="menu-list-item">
             <Link to="/payments">Payments</Link>
