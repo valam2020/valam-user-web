@@ -1,0 +1,156 @@
+.containerongo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Ensure content starts from the top */
+  min-height: 100vh; /* Set minimum height to the full viewport height */
+  padding: 10px;
+}
+  .headerongo {
+    display: flex;
+    align-items: center;
+    background-color: #ffa500;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .goBackContainerongo {
+    cursor: pointer;
+  }
+  
+  .headerTextongo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #fff;
+   
+  }
+  
+  .flatListContainerongo {
+    width: 100%;
+    margin-top: 10px;
+   
+    /* height: 30%; */
+ 
+   
+  }
+  
+  .flatListongo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  .cardContainerongo {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pressableongo {
+    cursor: pointer;
+  }
+  
+  .distanceContainerongo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+ 
+  }
+  .titleAddressContainerongo {
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .leftSpaceongo{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0099ff;
+   
+   
+  }
+  
+  .leftSpaceongo {
+    width: 20%;
+   
+    
+  }
+  
+  .rightSpaceongo {
+    width: 80%;
+  }
+  
+  .bodyongo {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .emptyContainerongo {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .emptylistTextongo{
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .headerTextyourtripsongo{
+    /* background-color: #fff; */
+    font-size: large;
+    font-weight: bold;
+   
+    
+  }
+ 
+  
+  .dividertripongo{
+    display: flex;
+    width: 90%;
+    height: 35px;
+    background-color: #d7d2d2;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  @media (max-width: 780px) {
+    .containerongo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+     
+      
+    } 
+    .leftSpaceongo {
+      font-weight: 500;
+      font-size: 12px;
+      color: #0099ff;
+    }
+    .rightSpaceongo{
+      font-size: small;
+      
+    }
+   
+    .flatListContainerongo {
+      width: 100%;
+     
+     }
+     .dividertripongo{
+      margin-top: 12%;
+     }
+     
+    
+
+    
+  }
+  
