@@ -1,0 +1,116 @@
+/* Trips.css */
+
+.containertrip {
+    padding: 10px;
+  }
+  
+  .cardContainertrip {
+    border-radius: 12px;
+    background-color: #ffffff;
+    /* padding: 8px 16px;
+    margin-top: 16px; */
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
+  }
+  .cardContainertrip:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Change box shadow on hover */
+  }
+  
+  .pressabletrip {
+    cursor: pointer;
+  }
+  
+  .timeContainertrip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .distanceContainertrip {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+  }
+  
+  .paymentContainertrip {
+    display: flex;
+    align-items: center;
+  }
+  
+  .titletrip {
+    font-weight: 700;
+    font-size: 16px;
+    color: #00bcd4;
+    margin-bottom: 4px;
+  }
+  
+  .bodytrip {
+    font-weight: 500;
+    font-size: 14px;
+    color: #00bcd4;
+    text-transform: capitalize;
+    margin-left: 5px;
+  }
+  
+  .leftSpacetrip {
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: small;
+    font-weight: bold;
+  }
+  
+  .rightSpacetrip {
+    width: 100%;
+    margin-bottom: 4px;
+    
+  }
+  
+  .emptyContainertrip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .emptylistTexttrip {
+    font-size: 16px;
+    text-align: center;
+  }
+  /* Remove default list style */
+  .ultrip {
+    list-style: none;
+
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .titletrip {
+      font-size: 14px;
+    }
+  
+    .bodytrip {
+      font-size: 12px;
+      
+    }
+     .ultrip {
+        list-style: none;
+        margin-left: -15%;
+      }
+      .bodytrip {
+        font-weight: 500;
+        font-size: 14px;
+        color: #00bcd4;
+        text-transform: capitalize;
+        margin-left: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      
+      
+    
+    
+  }
+  

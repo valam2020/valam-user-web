@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from './assets/images/valamnew.png';
 import profile from './assets/images/avatar.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faUser, faSuitcase, faCreditCard, faInfoCircle, faCog, faQuestionCircle, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -80,69 +82,58 @@ const Header = () => {
             <h5 className="username">Sahithi Dande</h5>
         </div>
         {/* </div> */}
+        <ul className="headermenu-list">
+  <li className="headermenu-list-item">
+    <Link to="/userHome">
+      <FontAwesomeIcon icon={faHome} color="white" />
+      <span className="menu-item-name">Home</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/profile">
+      <FontAwesomeIcon icon={faUser} color="white" />
+      <span className="menu-item-name">Edit Profile</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/YourTrips">
+      <FontAwesomeIcon icon={faSuitcase} color="white" />
+      <span className="menu-item-name">Your Trips</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/Payments">
+      <FontAwesomeIcon icon={faCreditCard} color="white" />
+      <span className="menu-item-name">Payments</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/AboutUs">
+      <FontAwesomeIcon icon={faInfoCircle} color="white" />
+      <span className="menu-item-name">About Us</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/settings">
+      <FontAwesomeIcon icon={faCog} color="white" />
+      <span className="menu-item-name">Settings</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/Help">
+      <FontAwesomeIcon icon={faQuestionCircle} color="white" />
+      <span className="menu-item-name">Help</span>
+    </Link>
+  </li>
+  <li className="headermenu-list-item">
+    <Link to="/logout">
+      <FontAwesomeIcon icon={faSignOutAlt} color="white" />
+      <span className="menu-item-name">Logout</span>
+    </Link>
+  </li>
+</ul>
         
-        {/* <ul className="headermenu-list">
-        
-          <li className="headermenu-list-item">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/editProfile">EditProfile</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/privacy-policy">Privacy Policy</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/terms-and-conditions">Terms and Conditions</Link>
-          </li>
-          <li className="headermenu-list-item">
-            <Link to="/logout">Logout</Link>
-          </li>
-        </ul> */}
 
-<ul className="headermenu-list">
-          <li className="headermenu-list-item">
-            {/* Home Symbol */}
-            <Link to="/userHome">Home</Link>
-          </li>
-          <li className="headermenu-list-item">
-             {/* Edit Profile Symbol */}
-            <Link to="/profile">Edit Profile</Link>
-          </li>
-          <li className="headermenu-list-item">
-            {/* About Symbol */}
-            <Link to="/about">YourTrips</Link>
-          </li>
-          <li className="headermenu-list-item">
-            {/* Blog Symbol */}
-            <Link to="/Payments">Payments</Link>
-          </li>
-          <li className="headermenu-list-item">
-            {/* Contact Symbol */}
-            <Link to="/AboutUs">AboutUs</Link>
-          </li>
-          <li className="headermenu-list-item">
-             {/* Privacy Policy Symbol */}
-            <Link to="/settings">Settings</Link>
-          </li>
-          <li className="headermenu-list-item">
-             {/* Terms and Conditions Symbol */}
-            <Link to="/Help">Help</Link>
-          </li>
-          <li className="headermenu-list-item">
-            {/* Logout Symbol */}
-            <Link to="/logout">Logout</Link>
-          </li>
-        </ul>
       </div>
     </header>
   );
