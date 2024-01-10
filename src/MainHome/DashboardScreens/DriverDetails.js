@@ -22,19 +22,6 @@ const DriverDetails = () => {
   const location = useLocation();
    const { driverDetails, rideData, commontoken, driverId ,fromLatitude,fromLongitude,toLatitude,toLongitude} = location.state;
 
-  // const [showModal, setShowModal] = useState(false);
-  // const [driverName, setDriverName] = useState('Sahithi Dande');
-  // const [driverNumber, setDriverNumber] = useState('+916281934372');
-  // const [carNumber, setCarNumber] = useState('SSKN@2209');
-  // const [driverPic, setDriverPic] = useState('');
-  // const [pickupAddress, setPickupAddress] = useState('Miyapure x road Metro station');
-  // const [destinationAddress, setDestinationAddress] = useState('Gachibowli x road flyover police station');
-  // const [paymentTotal, setPaymentTotal] = useState('200');
-  // const [paymentType, setPaymentType] = useState('Cash');
-  // const [otp, setOtp] = useState('1234');
-  // const[username, setUsername]=useState('Babysrilekha dande');
-  // const[distance,setDistance]=useState('20');
-  // const[rideId, setRideId]=useState('1234');
 
   const [showModal, setShowModal] = useState(false);
   const [driverName, setDriverName] = useState(`${driverDetails.firstName} ${driverDetails.lastName}`);
@@ -245,6 +232,8 @@ const DriverDetails = () => {
     setDistance(rideData.distance);
     setRideId(rideData.rideId);
     console.log("Ride id value",rideData.rideId, rideId)
+    console.log("lat and lng values checking",fromLatitude, fromLongitude, toLatitude, toLongitude)
+    
   }, [driverDetails, rideData]);
 
   const toggleModal = () => {
@@ -254,6 +243,7 @@ const DriverDetails = () => {
   return (
     <div>
        <Header/>
+       
        <div className="driverpagesection">
        <Map fromLatitude={fromLatitude} fromLongitude={fromLongitude} toLatitude={toLatitude} toLongitude={toLongitude}/>
        <div className="detail-section">
