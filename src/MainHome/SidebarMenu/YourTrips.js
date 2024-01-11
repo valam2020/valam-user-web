@@ -387,7 +387,7 @@ const YourTrips = () => {
           
           {onrideData.length === 0 && (
             <div className="emptyContainerongo" style={{ height: '100px' }}>
-              <span className="emptylistTextongo">NO RECORDS</span>
+              <span className="emptylistTextongo">NO ONGOING RIDES</span>
             </div>
           )}
         </div>
