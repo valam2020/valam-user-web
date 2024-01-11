@@ -1,0 +1,43 @@
+.privacy-policy-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  a.link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a.link:hover {
+    text-decoration: underline;
+  }
+  
+  .divider {
+    border-top: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  .divider1 {
+    border-top: 2px solid #ccc;
+   
+  }
+  
+  /* Add more styles as needed */
+  
