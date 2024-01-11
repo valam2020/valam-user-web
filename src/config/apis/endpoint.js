@@ -17,4 +17,5 @@ export const PROFILE_PIC = 'user/addImage';
 export const DRIVER_ID = 'driver/';
 export const RIDE_STARTED = 'ride/sts_isstarted';
 export const RIDE_COMPLETED = 'ride/sts_iscompleted';
+export const CAR_DETAILS = 'car/carsList';
 export const RIDE_FETCH = 'ride/fetch';
