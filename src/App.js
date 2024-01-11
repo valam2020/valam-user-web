@@ -20,7 +20,9 @@ import NewDashboard from './MainHome/DashboardScreens/NewDashboard';
 import Profile from './MainHome/SidebarMenu/Profile';
 import Map from './MainHome/DashboardScreens/Map';
 import RideBook from './MainHome/DashboardScreens/RideBooked';
-import Logout from './MainHome/SidebarMenu/Logout'
+import Logout from './MainHome/SidebarMenu/Logout';
+import YourTrips from './MainHome/SidebarMenu/YourTrips';
+import Trips from './MainHome/SidebarMenu/Trips';
 
 
 // const Home = () => <div>Home Page</div>;
@@ -51,6 +53,8 @@ const App = () => {
       <Route path="/Header" element={<Header />} />
       <Route path="/userHome" element={<NewDashboard />} />
       <Route path="/profile" element={<Profile />} />
+      <Route path="/YourTrips" element={<YourTrips/>} />
+      <Route path="/Trips" element={<Trips/>} />
       <Route path="/map" element={<Map />} />
         </Routes>
       </div>
