@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import HomeHeader from '../HomeHeader';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import ServiceSection from '../SidebarMenu/servicesection';
 
 import './Home.css';
 
@@ -57,6 +58,12 @@ function Home() {
       <div className="mobileImg">
           <img src={mainImg} alt="Right Image" />
         </div>
+        <br/>
+        <br/>
+
+        <ServiceSection/>
+
+
 
       {/* Call to Action */}
       <div className="services">

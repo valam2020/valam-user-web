@@ -1,0 +1,55 @@
+/* ServiceSection.css */
+.mainservice-section{
+    background-color: rgb(211, 213, 214);
+    
+}
+.mainservice-section1{
+    padding-top: 3%;
+}
+.service-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+   
+  }
+  
+  .service-container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #f7c200;
+    margin-bottom: 20px; /* Add margin-bottom for the gap between containers */
+  box-sizing: border-box; /* Include padding and border in the box model */
+  }
+  
+  .service-container h3 {
+    color: #333;
+  }
+  .serviceheader{
+    text-align: center;
+  }
+  .servicepara{
+    text-align: center;
+  }
+  .service-container p {
+    color: #666;
+  }
+  @media (max-width: 768px) {
+    .service-container {
+      flex: 0 0 90%; /* Full width for smaller screens, no margin-right */
+      margin-right: 0;
+    }
+    .service-section {
+       
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 20px auto;
+      }
+  }
+  

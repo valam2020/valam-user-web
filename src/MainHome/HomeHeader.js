@@ -25,7 +25,7 @@ function HomeHeader() {
           <div className="top-menu">
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/careers">Careers</Link></li>
               <li><Link to="/blog">Blog</Link></li>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
@@ -48,7 +48,7 @@ function HomeHeader() {
           </div> */}
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/careers">Careers</Link></li>
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>

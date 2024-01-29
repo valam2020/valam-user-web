@@ -24,6 +24,10 @@ import Logout from './MainHome/SidebarMenu/Logout';
 import YourTrips from './MainHome/SidebarMenu/YourTrips';
 import Trips from './MainHome/SidebarMenu/Trips';
 import PrivacyPolicy from './MainHome/SidebarMenu/privacyPolicy';
+import About from './MainHome/SidebarMenu/About';
+import TermsandConditions from './MainHome/SidebarMenu/TermsandConditions';
+import ContactUs from './MainHome/SidebarMenu/contact';
+import ServiceSection from './MainHome/SidebarMenu/servicesection';
 
 
 // const Home = () => <div>Home Page</div>;
@@ -38,12 +42,16 @@ const App = () => {
         <Routes>
         <Route path="/Home" element={<HomeHeader />} />
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/service" element={<ServiceSection />} />
           <Route path="/logout" element={<Logout />} />
           <Route path="/valam/home" element={<Home />} />
           <Route path="/login" element={<Createaccount />} />
           <Route path="/OTP" element={<OTP />} />
           <Route path="/signup" element={<Signup/>} />
           <Route path="/booked" element={<RideBook/>} />
+          <Route path="/terms" element={<TermsandConditions/>} />
           {/* <Route path="/userHome" element={<UserHomePage />} /> */}
           
           <Route path="/feedback" element={<FeedbackPage/>} />
