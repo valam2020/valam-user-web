@@ -1,12 +1,16 @@
 .aboutUssec{
-    background-color: orange;
+    /* background-color: orange; 
+    https://img.freepik.com/free-vector/abstract-orange-background_698452-2007.jpg */
+    background: url('https://wallpapers.com/images/featured/light-orange-background-twkelhp4digy0h91.jpg') no-repeat;
+    background-size: cover; 
+    
     color: white;
     font-weight: bolder;
     width: 100%;
-   padding-top: 2.5%;
-   padding-bottom: 2.5%;
+   padding-top: 2.0%;
+   padding-bottom: 2.0%;
    text-align: center;
-   font-size: 35px;
+   font-size: 25px;
   }
   
   .about-container {
@@ -29,7 +33,7 @@
   @media (max-width: 750px) {
     .aboutUssec{
         background-color: white;
-        color: orange;
+        color: white;
     }
    
   }
