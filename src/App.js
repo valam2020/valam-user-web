@@ -25,9 +25,19 @@ import YourTrips from './MainHome/SidebarMenu/YourTrips';
 import Trips from './MainHome/SidebarMenu/Trips';
 import PrivacyPolicy from './MainHome/SidebarMenu/privacyPolicy';
 import About from './MainHome/SidebarMenu/About';
+
 import TermsandConditions from './MainHome/SidebarMenu/TermsandConditions';
 import ContactUs from './MainHome/SidebarMenu/contact';
 import ServiceSection from './MainHome/SidebarMenu/servicesection';
+
+import Blog from './MainHome/SidebarMenu/Blog';
+import Career from './MainHome/SidebarMenu/Career';
+import TermsandConditions from './MainHome/SidebarMenu/TermsandConditions';
+import ContactUs from './MainHome/SidebarMenu/contact';
+import ServiceSection from './MainHome/SidebarMenu/servicesection';
+import AboutUs from './MainHome/DashboardScreens/UserAbout';
+import Help from './MainHome/DashboardScreens/Help';
+
 
 
 // const Home = () => <div>Home Page</div>;
@@ -43,6 +53,9 @@ const App = () => {
         <Route path="/Home" element={<HomeHeader />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/careers" element={<Career />} />
+
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/service" element={<ServiceSection />} />
           <Route path="/logout" element={<Logout />} />
@@ -66,6 +79,8 @@ const App = () => {
       <Route path="/YourTrips" element={<YourTrips/>} />
       <Route path="/Trips" element={<Trips/>} />
       <Route path="/map" element={<Map />} />
+      <Route path="/aboutUs" element={<AboutUs />} />
+      <Route path="/help" element={<Help />} />
         </Routes>
       </div>
     </Router>
@@ -75,3 +90,4 @@ const App = () => {
 };
 
 export default App;
+
