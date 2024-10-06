@@ -25,11 +25,6 @@ import YourTrips from './MainHome/SidebarMenu/YourTrips';
 import Trips from './MainHome/SidebarMenu/Trips';
 import PrivacyPolicy from './MainHome/SidebarMenu/privacyPolicy';
 import About from './MainHome/SidebarMenu/About';
-
-import TermsandConditions from './MainHome/SidebarMenu/TermsandConditions';
-import ContactUs from './MainHome/SidebarMenu/contact';
-import ServiceSection from './MainHome/SidebarMenu/servicesection';
-
 import Blog from './MainHome/SidebarMenu/Blog';
 import Career from './MainHome/SidebarMenu/Career';
 import TermsandConditions from './MainHome/SidebarMenu/TermsandConditions';
