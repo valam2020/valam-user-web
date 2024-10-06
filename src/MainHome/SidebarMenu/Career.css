@@ -1,0 +1,43 @@
+.blog-container {
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.career-content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa; /* Yellowish-Orange Background Color */
+  border: 1px solid #cacac6; /* Border Color */
+  border-radius: 10px; /* Border Radius */
+  margin-top: 10px;
+  
+
+}
+.career-content1 {
+    background: url('https://www.shutterstock.com/image-vector/abstract-wave-background-yellow-260nw-456380107.jpg') no-repeat;
+    background-size: cover; 
+   
+}
+
+.career-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.career-content p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.career-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.career-content a:hover {
+    text-decoration: underline;
+}
