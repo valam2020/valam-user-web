@@ -41,7 +41,7 @@ const TopSection = ({  }) => {
               <Link to="/user/payments">Payments</Link>
             </li>
             <li className="menuList1">
-              <Link to="/user/aboutUS">About Us</Link>
+              <Link to="/user/aboutUs">About Us</Link>
             </li>
             <li className="menuList1">
               <Link to="/user/settings">Settings</Link>
@@ -82,3 +82,4 @@ const TopSection = ({  }) => {
 
 
 export default TopSection;
+
