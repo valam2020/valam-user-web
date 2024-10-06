@@ -1,0 +1,86 @@
+
+.blog-container {
+    width: 100%;
+    height: 100%;
+    /* position: relative;
+  overflow: hidden; */
+    
+}
+.blog-container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+}
+.background{
+    background: url('https://www.shutterstock.com/image-vector/abstract-wave-background-yellow-260nw-456380107.jpg') no-repeat;
+    background-size: cover;  
+
+    
+}
+
+
+.blog-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.blog-post-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.blog-post-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-title {
+    font-size: 1.2em;
+    color: #0b0b0b;
+    margin: 0 0 10px;
+}
+
+.blog-summary {
+    color: #555;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+.blog-date {
+    display: block;
+    color: #999;
+    font-size: 0.9em;
+}
+.curved-background {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    background: white;
+}
+
+.curved-background svg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
