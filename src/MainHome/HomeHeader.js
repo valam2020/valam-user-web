@@ -52,8 +52,8 @@ function HomeHeader() {
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/contact">Contact Us</Link></li>
-            <li>Privacy Policy</li>
-            <li>Terms and Conditions</li>
+            <li><Link to="/privacypolicy">Privacy Policy</Link></li>
+            <li><Link to="/terms">Terms and Conditions</Link></li>
           </ul>
         </div>
        )}

@@ -102,7 +102,10 @@
     background-color: #ffaa00;
     transition: background-color 0.3s;}
   
-  
+    .cta-button-app {
+      text-decoration: none; 
+      color: inherit; 
+    }
   
   
   .main-content{

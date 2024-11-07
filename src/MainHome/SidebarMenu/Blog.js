@@ -31,42 +31,42 @@ const Blog = () => {
             title: "Revolutionizing Rides: How Valam is Shaping Affordable Transportation",
             content: "Valam is committed to making transportation affordable and accessible. Discover how we are reshaping the landscape.",
             date: "October 10, 2024",
-            image: "https://via.placeholder.com/400x200" // Example image
+            image: "/image1.jpeg"// Example image
         },
         {
             id: 2,
             title: "Ensuring Accessibility: Valam's Commitment to All Riders",
             content: "Learn how we ensure our services are accessible to everyone, including those with disabilities.",
             date: "October 15, 2024",
-            image: "https://via.placeholder.com/400x200" // Example image
+            image: "./image2.jpeg" // Example image
         },
         {
             id: 3,
             title: "Meet the Team: The Faces Behind Valam",
             content: "The success of Valam lies in the dedication of our team. In this post, we introduce you to some of our key members who work tirelessly to ensure that you have a smooth and reliable ride experience. From drivers to customer support, meet the people who make Valam special!",
             date: "October 20, 2024",
-            image: "https://via.placeholder.com/400x200" // Example image
+            image: "./imageteam.jpeg" // Example image
         },
         {
             id: 4,
             title: "The Future of Ride-Hailing: What to Expect from Valam",
             content: "As the ride-hailing industry evolves, Valam is at the forefront of innovation. In this post, we explore upcoming features and technologies that will transform your riding experience. From advanced app functionalities to improved safety measures, find out how Valam is leading the way into the future of transportation.",
             date: "October 25, 2024",
-            image: "https://via.placeholder.com/400x200" // Example image
+            image: "./image4.jpg" // Example image
         },
         {
             id: 5,
             title: "Safety First: How Valam Ensures Your Security",
             content: "Your safety is our top priority. In this blog post, we outline the measures Valam has implemented to ensure a secure ride for all passengers. From background checks for drivers to in-app safety features, discover how we are committed to providing a worry-free travel experience.",
             date: "October 30, 2024",
-            image: "https://via.placeholder.com/400x200" // Example image
+            image: "./image5.png" // Example image
         },
         {
             id: 6,
             title: "Community Impact: Valam’s Role in Local Economies",
             content: "Valam is more than just a ride service; we are committed to supporting local economies. In this post, we discuss how our operations create job opportunities, support local businesses, and contribute to community development. Join us in exploring the positive impact Valam is making in the neighborhoods we serve.",
             date: "September 5, 2024",
-            image: "https://via.placeholder.com/400x200" // Example image
+            image: "./image6.jpg" // Example image
         }
     ];
 

@@ -36,7 +36,14 @@ function Home() {
           </ul>
           
           <div className="cta">
-            <button className="cta-button">Download App</button>
+            <button className="cta-button"><a
+             
+              href="/UserApp_Prod.apk"  // path to APK in the public folder
+              download="Valam_App.apk"  // suggested name for the downloaded file
+              className="cta-button-app"
+            >
+              Download App
+            </a></button>
             {/* <Link to="/login">
               <button className="cta-button">Sign Up</button>
             </Link>
